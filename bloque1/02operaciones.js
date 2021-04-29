@@ -26,3 +26,28 @@ a--;
 a -= 2;
 
 console.log(a);
+
+
+// texto
+var nombre = 'Jose Juan';
+var apellido = 'Perez Gonzalez'
+
+nombre += ' ';
+nombre += apellido;
+
+console.log(nombre)
+
+
+// combinar operaciones con diferentes tipos
+var numero = 2;
+var texto = 'Hola'
+var sumaCombinada = numero + texto;
+
+console.log(sumaCombinada)
+
+
+//Ejercicio: Programa que nos de los buenos dias
+//Resultado: 'Buenos dias NOMBRE'
+nombre = 'Jose Juan'
+
+console.log('Buenos dias ' + nombre)
