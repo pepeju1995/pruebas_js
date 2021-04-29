@@ -15,5 +15,7 @@ var y = 3;
 var z = x;
 x = y;
 y = z;
+// deestructuring
+[x, y] = [y, x]
 
 console.log(x, y)
