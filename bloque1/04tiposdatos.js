@@ -14,6 +14,14 @@ var objeto = {
 
 var funcion = function() {}
 
+// null y undefined
+// null: NO tengo valor definido
+// undefined: Variable no inicializada (no definida)
+// null y undefined son equivalentes, pero no son el mismo tipo
+var valorNulo = null;
+var valorUndefined;
+console.log(valorNulo == valorUndefined)
+
 // los tipos son dinamicos
 var a = 4;
 a = 'Hello';
