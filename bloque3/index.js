@@ -5,10 +5,11 @@ const rl = readLine.createInterface({
     output: process.stdout
 });
 
-rl.question("¿Que edad tienes?: ", function(answer) {
-    console.log("Tu edad es " + answer);
-    
-    rl.close();    
+rl.question("¿Cuantas iteraciones quieres hacer?: ", function(iterations) {
+    for (let i = 0; i < iterations; ++i) {
+        console.log(i);
+    }
+    rl.close();
 });
 
 
